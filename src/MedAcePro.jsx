@@ -41,7 +41,7 @@ import {
                                                                                                         { name: 'Anaesthesia', icon: '😴', color: 'bg-teal-100 text-teal-600 border-teal-200' }
                                                                                                           ];
 
-                                                                                                            const authorizedEmails = ["TERI_ID@gmail.com"]; 
+                                                                                                            const authorizedEmails = ["medace.admin@gmail.com"]; 
                                                                                                               const isAdmin = user && authorizedEmails.includes(user.email.toLowerCase());
 
                                                                                                                 const handleFileSelect = (e) => {
