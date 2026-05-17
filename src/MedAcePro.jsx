@@ -389,8 +389,8 @@ const MedAcePro = ({ user }) => {
                                                                                                                                                                                                                                                                               }
                                                                                                                                                                                                                                                                                   setIsUploading(false);
                                                                                                                                                                                                                                                                                     };
-                                                                                                                                                                                                                                                                                    
-    }
+
+    
 
   const handleFeedbackSubmit = async (q) => {
     const reason = prompt("Is question mein kya dikkat h? Details likhein:");
@@ -714,6 +714,6 @@ const MedAcePro = ({ user }) => {
       </div>
     </div>
   );
-};
+
 
 export default MedAcePro;
